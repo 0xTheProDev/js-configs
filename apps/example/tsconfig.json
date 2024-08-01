@@ -1,0 +1,7 @@
+{
+  "extends": "@theprodev/tsconfigs/nest",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist"
+  }
+}

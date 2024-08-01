@@ -1,0 +1,8 @@
+{
+  "$schema": "http://json.schemastore.org/tsconfig",
+  "extends": "./base",
+  "compilerOptions": {
+    "emitDecoratorMetadata": true, /* Enables experimental support for ES7 decorators. */
+    "experimentalDecorators": true /* Enables experimental support for emitting type metadata for decorators. */
+  }
+}

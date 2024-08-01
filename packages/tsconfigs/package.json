@@ -1,0 +1,37 @@
+{
+  "name": "@theprodev/tsconfigs",
+  "version": "0.0.0",
+  "description": "A Set of TypeScript Configurations",
+  "keywords": [
+    "nodejs",
+    "web",
+    "microservices",
+    "typescript",
+    "angular",
+    "nestjs",
+    "nextjs",
+    "react",
+    "vue"
+  ],
+  "bugs": {
+    "url": "https://github.com/0xTheProDev/js-configs/discussions"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0xTheProDev/js-configs.git"
+  },
+  "license": "MIT",
+  "author": "Progyan Bhattacharya <bprogyan@gmail.com>",
+  "scripts": {
+    "format": "prettier --check \"./**/*.{cjs,js,json,md,mjs,ts,yaml,yml}\"",
+    "format:fix": "prettier --write \"./**/*.{cjs,js,json,md,mjs,ts,yaml,yml}\"",
+    "lint": "eslint \"./**/*.{cjs,js,mjs,ts}\"",
+    "lint:fix": "eslint --fix \"./**/*.{cjs,js,mjs,ts}\""
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

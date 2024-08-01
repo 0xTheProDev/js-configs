@@ -1,0 +1,58 @@
+{
+  "name": "@theprodev/eslint-config",
+  "version": "0.0.0",
+  "description": "An Opinionated ESLint Configuration",
+  "keywords": [
+    "nodejs",
+    "web",
+    "microservices",
+    "typescript",
+    "angular",
+    "nestjs",
+    "nextjs",
+    "react",
+    "vue"
+  ],
+  "type": "module",
+  "main": "dist/eslint.config.cjs",
+  "module": "dist/eslint.config.js",
+  "types": "dist/eslint.config.ts",
+  "files": [
+    "dist"
+  ],
+  "bugs": {
+    "url": "https://github.com/0xTheProDev/js-configs/discussions"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0xTheProDev/js-configs.git"
+  },
+  "license": "MIT",
+  "author": "Progyan Bhattacharya <bprogyan@gmail.com>",
+  "scripts": {
+    "build": "tsup",
+    "format": "prettier --check \"./**/*.{cjs,js,json,md,mjs,ts,yaml,yml}\"",
+    "format:fix": "prettier --write \"./**/*.{cjs,js,json,md,mjs,ts,yaml,yml}\"",
+    "lint": "eslint \"./**/*.{cjs,js,mjs,ts}\"",
+    "lint:fix": "eslint --fix \"./**/*.{cjs,js,mjs,ts}\""
+  },
+  "dependencies": {
+    "@eslint/js": "9.7.0",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-import-resolver-typescript": "3.6.1",
+    "eslint-plugin-import": "2.29.1",
+    "eslint-plugin-unused-imports": "4.0.1",
+    "typescript-eslint": "7.17.0"
+  },
+  "devDependencies": {
+    "@theprodev/tsconfigs": "workspace:*",
+    "@types/eslint__js": "8.42.3"
+  },
+  "peerDependencies": {
+    "eslint": "^9",
+    "typescript": "^5"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

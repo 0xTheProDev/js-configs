@@ -1,0 +1,41 @@
+{
+  "name": "js-configs",
+  "private": true,
+  "description": "A collection of Configurations useful for NodeJS and Web Projects",
+  "scripts": {
+    "build": "turbo run build",
+    "format": "turbo run format",
+    "format:fix": "turbo run format:fix",
+    "lint": "turbo run lint",
+    "lint:fix": "turbo run lint:fix",
+    "prepare": "bun run .husky/install.mjs",
+    "publish": "turbo run publish",
+    "test": "turbo run test",
+    "test:cov": "turbo run test:cov",
+    "test:watch": "turbo run test:watch",
+    "typecheck": "turbo run typecheck"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0xTheProDev/js-configs.git"
+  },
+  "engines": {
+    "node": ">= 20"
+  },
+  "devDependencies": {
+    "@changesets/cli": "2.27.7",
+    "check-yarn-lock": "0.2.1",
+    "husky": "9.1.1",
+    "lint-staged": "15.2.7",
+    "turbo": "2.0.11",
+    "prettier": "3.3.3",
+    "eslint": "9.7.0",
+    "tsup": "8.2.3",
+    "typescript": "5.5.4"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "packageManager": "yarn@1.22.0"
+}

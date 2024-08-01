@@ -1,0 +1,6 @@
+{
+  "extends": "@theprodev/tsconfigs/base",
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true
+  }
+}
