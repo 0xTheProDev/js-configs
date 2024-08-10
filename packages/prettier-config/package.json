@@ -1,0 +1,37 @@
+{
+  "name": "@theprodev/prettier-config",
+  "version": "0.0.0",
+  "description": "An Opinionated Prettier Configuration",
+  "keywords": [
+    "nodejs",
+    "web",
+    "microservices",
+    "typescript",
+    "angular",
+    "nestjs",
+    "nextjs",
+    "react",
+    "vue"
+  ],
+  "bugs": {
+    "url": "https://github.com/0xTheProDev/js-configs/discussions"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0xTheProDev/js-configs.git"
+  },
+  "license": "MIT",
+  "author": "Progyan Bhattacharya <bprogyan@gmail.com>",
+  "main": "lib/.prettierrc.json",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "format": "prettier \"./**/*.{js,ts,tsx,json,md}\" --check",
+    "format:fix": "prettier --write \"./**/*.{js,ts,tsx,json,md}\""
+  },
+  "prettier": "./lib/.prettierrc.json",
+  "peerDependencies": {
+    "prettier": "^3"
+  }
+}

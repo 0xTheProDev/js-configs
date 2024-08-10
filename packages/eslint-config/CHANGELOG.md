@@ -1,0 +1,1 @@
+# `@theprodev/eslint-config`

@@ -1,0 +1,7 @@
+{
+  "extends": "@theprodev/tsconfigs/base",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist"
+  }
+}

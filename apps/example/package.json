@@ -1,0 +1,24 @@
+{
+  "name": "js-configs-example-app",
+  "private": true,
+  "description": "Example TypeScript Application",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0xTheProDev/js-configs.git"
+  },
+  "scripts": {
+    "format": "prettier --check \"./**/*.{cjs,js,json,md,mjs,ts,yaml,yml}\"",
+    "format:fix": "prettier --write \"./**/*.{cjs,js,json,md,mjs,ts,yaml,yml}\"",
+    "lint": "eslint \"./**/*.{cjs,js,mjs,ts}\"",
+    "lint:fix": "eslint --fix \"./**/*.{cjs,js,mjs,ts}\""
+  },
+  "prettier": "@theprodev/prettier-config",
+  "devDependencies": {
+    "@theprodev/eslint-config": "workspace:*",
+    "@theprodev/prettier-config": "workspace:*",
+    "@theprodev/tsconfigs": "workspace:*"
+  },
+  "engines": {
+    "node": ">= 20"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "$schema": "http://json.schemastore.org/tsconfig",
+
+  "extends": "./base",
+  "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "node"
+  }
+}
