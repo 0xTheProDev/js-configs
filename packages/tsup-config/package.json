@@ -22,6 +22,7 @@
   },
   "license": "MIT",
   "author": "Progyan Bhattacharya <bprogyan@gmail.com>",
+  "type": "module",
   "main": "dist/tsup.config.js",
   "module": "dist/tsup.config.mjs",
   "types": "dist/tsup.config.d.ts",
@@ -37,12 +38,13 @@
     "typecheck": "tsc --noEmit"
   },
   "prettier": "@theprodev/prettier-config",
-  "dependencies": {
-    "tsup": "8.2.4"
-  },
   "devDependencies": {
     "@theprodev/eslint-config": "workspace:*",
-    "@theprodev/tsconfigs": "workspace:*"
+    "@theprodev/tsconfigs": "workspace:*",
+    "tsup": "8.2.4"
+  },
+  "peerDependencies": {
+    "tsup": "^8"
   },
   "publishConfig": {
     "access": "public"
