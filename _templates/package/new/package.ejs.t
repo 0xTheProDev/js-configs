@@ -43,5 +43,8 @@ to: packages/<%= h.changeCase.lower(name) %>/package.json
   "prettier": "@theprodev/prettier-config",
   "devDependencies": {
     "@theprodev/tsconfigs": "workspace:*"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

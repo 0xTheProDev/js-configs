@@ -1,6 +1,6 @@
 {
   "name": "@theprodev/prettier-config",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "An Opinionated Prettier Configuration",
   "keywords": [
     "nodejs",
@@ -33,5 +33,8 @@
   "prettier": "./lib/.prettierrc.json",
   "peerDependencies": {
     "prettier": "^3"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
