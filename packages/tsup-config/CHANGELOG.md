@@ -2,6 +2,6 @@
 
 ## 0.1.0
 
-### Minor Changes
+### Initial Release
 
 - bc14727: Initial Release of Centralised TSup Configurations.
