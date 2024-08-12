@@ -1,5 +1,11 @@
 # @theprodev/tsup-config
 
+## 0.2.0
+
+### Minor Changes
+
+- d975271: Change Module System from CJS to ESM
+
 ## 0.1.0
 
 ### Initial Release
