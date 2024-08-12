@@ -1,6 +1,6 @@
 {
   "name": "@theprodev/tsup-config",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A Decorated and Opinionated Configuration for Tsup Builder",
   "keywords": [
     "nodejs",

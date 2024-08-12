@@ -1,6 +1,6 @@
 {
   "name": "@theprodev/tsconfigs",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A Set of TypeScript Configurations",
   "keywords": [
     "nodejs",
