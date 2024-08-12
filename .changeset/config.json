@@ -7,7 +7,7 @@
   "access": "restricted",
   "baseBranch": "origin/main",
   "updateInternalDependencies": "patch",
-  "ignore": ["js-configs-example"],
+  "ignore": ["js-configs-example-app"],
   "snapshot": {
     "useCalculatedVersion": true
   }
