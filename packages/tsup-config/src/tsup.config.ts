@@ -13,6 +13,9 @@ type OverrideOptions = Omit<Options, "dts"> & {
  * Additional metadata for the Library.
  */
 type LibOptions = {
+  /** Link to the Source Code. */
+  sourceURL?: string;
+  /** Start Year of the Project. */
   startYear?: number;
 };
 
@@ -42,7 +45,7 @@ const currentYear = new Date().getFullYear();
  * });
  */
 export const defineConfig = (config: ConfigOptions) => {
-  const { libOptions: { startYear } = {}, ...options } = config;
+  const { libOptions: { sourceURL, startYear } = {}, ...options } = config;
 
   return _defineConfig({
     cjsInterop: true,
@@ -50,7 +53,7 @@ export const defineConfig = (config: ConfigOptions) => {
     dts: {
       banner: `/**
   * Copyright © ${startYear && startYear < currentYear ? `${startYear}-` : ""}${currentYear} Progyan Bhattacharya <bprogyan@gmail.com>
-  * https://github.com/0xTheProDev/js-configs
+  * ${sourceURL ?? "https://github.com/0xTheProDev"}
   *
   * Permission is hereby granted, free of charge, to any person obtaining a copy
   * of this software and associated documentation files (the "Software"), to deal
@@ -78,7 +81,7 @@ export const defineConfig = (config: ConfigOptions) => {
     outDir: "dist",
     shims: true,
     splitting: false,
-    sourcemap: false,
+    sourcemap: true,
     ...options,
   });
 };
