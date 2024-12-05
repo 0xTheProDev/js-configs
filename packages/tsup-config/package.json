@@ -41,7 +41,7 @@
   "devDependencies": {
     "@theprodev/eslint-config": "workspace:*",
     "@theprodev/tsconfigs": "workspace:*",
-    "tsup": "8.2.4"
+    "tsup": "8.3.5"
   },
   "peerDependencies": {
     "tsup": "^8"
