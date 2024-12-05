@@ -1,5 +1,11 @@
 # @theprodev/tsup-config
 
+## 0.3.2
+
+### Patch Changes
+
+- 466ce77: Upgrade TSUp Package
+
 ## 0.3.0
 
 ### Minor Changes

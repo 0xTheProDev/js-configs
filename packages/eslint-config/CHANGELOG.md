@@ -1,5 +1,11 @@
 # `@theprodev/eslint-config`
 
+## 0.2.1
+
+### Patch Changes
+
+- 466ce77: Upgrade JavaScript ESLint Rules to Support ESLint > 9.14
+
 ## 0.2.0
 
 ### Minor Changes
