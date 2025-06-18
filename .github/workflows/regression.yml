@@ -43,6 +43,7 @@ jobs:
         uses: 0xTheProDev/setup-js@v1
         with:
           cache: bun
+          cache-path: node_modules
           cache-version-file: .bun-version
           version-file: .nvmrc
 
@@ -63,6 +64,7 @@ jobs:
         uses: 0xTheProDev/setup-js@v1
         with:
           cache: bun
+          cache-path: node_modules
           cache-version-file: .bun-version
           version-file: .nvmrc
 
@@ -80,6 +82,7 @@ jobs:
         uses: 0xTheProDev/setup-js@v1
         with:
           cache: bun
+          cache-path: node_modules
           cache-version-file: .bun-version
           version-file: .nvmrc
 
@@ -100,6 +103,7 @@ jobs:
         uses: 0xTheProDev/setup-js@v1
         with:
           cache: bun
+          cache-path: node_modules
           cache-version-file: .bun-version
           version-file: .nvmrc
 
