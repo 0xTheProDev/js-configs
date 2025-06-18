@@ -1,5 +1,11 @@
 # @theprodev/tsup-config
 
+## 0.4.0
+
+### Minor Changes
+
+- 0851a41: Upgrade `tsup` from [v8.3.5 to v8.5.0](https://github.com/egoist/tsup/compare/v8.3.5...v8.5.0).
+
 ## 0.3.2
 
 ### Patch Changes
