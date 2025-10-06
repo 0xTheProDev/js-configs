@@ -1,4 +1,5 @@
-import { defineConfig as _defineConfig, Options } from "tsup";
+import { defineConfig as _defineConfig } from "tsup";
+import type { Options } from "tsup";
 
 /**
  * @public
