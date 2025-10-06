@@ -8,9 +8,12 @@
     "microservices",
     "typescript",
     "angular",
+    "astro",
     "nestjs",
     "nextjs",
     "react",
+    "react-native",
+    "expo",
     "vue"
   ],
   "bugs": {

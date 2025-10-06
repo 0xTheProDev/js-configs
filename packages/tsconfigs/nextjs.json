@@ -2,5 +2,12 @@
   "$schema": "http://json.schemastore.org/tsconfig",
 
   "extends": "./react",
-  "compilerOptions": { "incremental": true }
+  "compilerOptions": {
+    "allowJs": true,
+    "incremental": true,
+    "moduleResolution": "nodenext",
+    "plugins": [{ "name": "next" }],
+    "resolveJsonModule": true,
+    "target": "es2017"
+  }
 }
