@@ -1,0 +1,39 @@
+{
+  "name": "nextjs-example-app",
+  "private": true,
+  "description": "Example NextJS Application",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0xTheProDev/js-configs.git"
+  },
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "format": "prettier --check \"./**/*.{cjs,js,json,md,mjs,ts,yaml,yml}\"",
+    "format:fix": "prettier --write \"./**/*.{cjs,js,json,md,mjs,ts,yaml,yml}\"",
+    "lint": "next lint",
+    "lint:fix": "eslint --fix \"./**/*.{cjs,js,mjs,ts}\"",
+    "start": "next start"
+  },
+  "prettier": "@theprodev/prettier-config",
+  "dependencies": {
+    "next": "15.3.4",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "3.3.1",
+    "@tailwindcss/postcss": "4.1.11",
+    "@theprodev/eslint-config": "workspace:*",
+    "@theprodev/prettier-config": "workspace:*",
+    "@theprodev/tsconfigs": "workspace:*",
+    "@types/node": "24.0.7",
+    "@types/react": "19.1.8",
+    "@types/react-dom": "19.1.6",
+    "eslint-config-next": "15.3.4",
+    "tailwindcss": "4.1.11"
+  },
+  "engines": {
+    "node": ">= 20"
+  }
+}
