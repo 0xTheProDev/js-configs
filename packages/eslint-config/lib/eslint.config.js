@@ -55,8 +55,8 @@ const configGenerator = (overrides, ...extraConfigs) =>
         ...(overrides?.javascript ?? {}),
       },
     },
-    prettierConfig,
     ...extraConfigs,
+    prettierConfig,
   );
 
 module.exports = configGenerator;
