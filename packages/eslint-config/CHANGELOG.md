@@ -1,5 +1,11 @@
 # `@theprodev/eslint-config`
 
+## 0.3.1
+
+### Patch Changes
+
+- c3f6a21: Fix Overriding of Prettier Config via Exposed Options
+
 ## 0.3.0
 
 ### Minor Changes

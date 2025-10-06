@@ -1,6 +1,6 @@
 {
   "name": "@theprodev/eslint-config",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "An Opinionated ESLint Configuration",
   "keywords": [
     "nodejs",
