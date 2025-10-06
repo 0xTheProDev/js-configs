@@ -1,5 +1,11 @@
 # `@theprodev/tsconfigs`
 
+## 0.3.0
+
+### Minor Changes
+
+- dca9f70: Introduce Astro Project TypeScript Configuration file along with optional Strict TypeScript Project Configuration file.
+
 ## 0.2.0
 
 ### Minor Changes
