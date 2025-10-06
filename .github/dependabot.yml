@@ -4,8 +4,6 @@ updates:
       prefix: chore(workflow)
     directory: "/"
     package-ecosystem: "github-actions"
-    reviewers:
-      - 0xTheProDev
     schedule:
       interval: "weekly"
 
@@ -19,8 +17,6 @@ updates:
       development-dependencies:
         dependency-type: "development"
     package-ecosystem: npm
-    reviewers:
-      - 0xTheProDev
     schedule:
       interval: daily
     versioning-strategy: increase-if-necessary
