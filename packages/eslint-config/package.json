@@ -34,19 +34,19 @@
   },
   "prettier": "@theprodev/prettier-config",
   "dependencies": {
-    "@eslint/js": "9.29.0",
-    "eslint-config-prettier": "10.1.5",
-    "eslint-import-resolver-typescript": "4.4.3",
-    "eslint-plugin-import": "2.31.0",
-    "eslint-plugin-unused-imports": "4.1.4",
-    "typescript-eslint": "8.34.1"
+    "@eslint/js": "10.0.1",
+    "eslint-config-prettier": "10.1.8",
+    "eslint-import-resolver-typescript": "4.4.5",
+    "eslint-plugin-import": "2.32.0",
+    "eslint-plugin-unused-imports": "4.4.1",
+    "typescript-eslint": "8.72.2"
   },
   "devDependencies": {
     "@theprodev/tsconfigs": "workspace:*"
   },
   "peerDependencies": {
-    "eslint": "^9",
-    "typescript": "^5"
+    "eslint": "^10",
+    "typescript": "^7"
   },
   "publishConfig": {
     "access": "public"
