@@ -41,10 +41,10 @@
   "devDependencies": {
     "@theprodev/eslint-config": "workspace:*",
     "@theprodev/tsconfigs": "workspace:*",
-    "tsup": "8.5.0"
+    "tsup": "9.0.0"
   },
   "peerDependencies": {
-    "tsup": "^8"
+    "tsup": "^9"
   },
   "publishConfig": {
     "access": "public"
